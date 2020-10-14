@@ -1,1 +1,2 @@
-web: sh heroku.sh
+web: gunicorn app:server
+#web: sh heroku.sh
